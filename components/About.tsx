@@ -23,9 +23,7 @@ const About: React.FC = () => {
           </h2>
           
           <div className="space-y-6 text-zinc-600 leading-relaxed text-base md:text-lg font-medium">
-            <p>Hi, I’m Bayu Oscar, a dedicated <span className="text-zinc-900 font-bold">Frontend Web Developer</span> with a strong passion for turning creative designs into interactive and highly informative web experiences. I believe that a website should not only look visually stunning but also provide a seamless and engaging journey for every user who visits it."</p>
-            <p>My journey in the tech world began in 2019, and since then, I have been deeply immersed in mastering the core foundations of web development: HTML, CSS, and JavaScript. Over the years, I have refined my skills to ensure that every line of code I write contributes to a high-performing and responsive digital product.</p>
-            <p>What I love most about this profession is the constant challenge of bringing static ideas to life through logic and creativity. I am always eager to learn new technologies and contribute to meaningful projects. I look forward to the possibility of collaborating with you soon and creating something great together.</p>
+            <p>Hi there! I’m Bayu Oscar, a <span className="text-zinc-900 font-bold">Frontend Developer</span> passionate about turning designs into informative and interactive experiences. I believe a great interface should communicate clearly and feel natural to the user. That’s why I focus on clarity, consistency, and a seamless user experience in everything I build. I’m always learning and looking for ways to level up my craft. I’d love to connect and see how we can work together!</p>
           </div>
         </div>
       </div>

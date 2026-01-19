@@ -26,7 +26,7 @@ export interface ExperienceItem {
 }
 
 export enum SectionId {
-  HERO = 'hero',
+  HOME = 'home',
   ABOUT = 'about',
   SKILLS = 'skills',
   EXPERIENCE = 'experience',

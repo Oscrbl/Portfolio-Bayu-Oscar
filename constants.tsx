@@ -60,7 +60,10 @@ export const SKILLS_DATA: SkillCategory[] = [
   }
 ];
 
-export const LIST_PLATFORM: ItemPlatform[] = [{name: 'Instagram', link: "https://www.instagram.com/byoscards"}, {name: 'LinkedIn', link: "https://www.linkedin.com/in/bayoscr"}]
+export const LIST_PLATFORM: ItemPlatform[] = [
+  {name: 'Instagram', link: "https://www.instagram.com/byoscards"}, 
+  {name: 'LinkedIn', link: "https://www.linkedin.com/in/bayoscr"}
+]
 
 export const EXPERIENCE_DATA: ExperienceItem[] = [
   {

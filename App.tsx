@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import Hero from './components/Hero';
+import HOME from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
@@ -10,11 +10,11 @@ import Navbar from './components/Navbar';
 import { SectionId } from './types';
 
 const App: React.FC = () => {
-  const [activeSection, setActiveSection] = useState<SectionId>(SectionId.HERO);
+  const [activeSection, setActiveSection] = useState<SectionId>(SectionId.HOME);
   const containerRef = useRef<HTMLDivElement>(null);
 
   const sections = [
-    { id: SectionId.HERO, component: <Hero /> },
+    { id: SectionId.HOME, component: <HOME /> },
     { id: SectionId.ABOUT, component: <About /> },
     { id: SectionId.SKILLS, component: <Skills /> },
     { id: SectionId.EXPERIENCE, component: <Experience /> },
@@ -76,7 +76,7 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="relative bg-[#E3D5B6]">
+    <div className="relative">
       <Navbar activeSection={activeSection} onNavClick={scrollToSection} />
       
       <main 

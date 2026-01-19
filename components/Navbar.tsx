@@ -9,7 +9,7 @@ interface NavbarProps {
 
 const Navbar: React.FC<NavbarProps> = ({ activeSection, onNavClick }) => {
   const navItems = [
-    { id: SectionId.HERO, label: 'Home' },
+    { id: SectionId.HOME, label: 'Home' },
     { id: SectionId.ABOUT, label: 'About' },
     { id: SectionId.SKILLS, label: 'Skills' },
     { id: SectionId.EXPERIENCE, label: 'Work' },
@@ -20,7 +20,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection, onNavClick }) => {
     <nav className="fixed top-0 left-0 w-full z-[100] px-6 py-6 md:px-12 md:py-8 flex justify-between items-center pointer-events-none">
       <div 
         className="text-2xl font-black tracking-tighter pointer-events-auto cursor-pointer bg-zinc-900 text-white px-4 py-1.5 rounded-full" 
-        onClick={() => onNavClick(SectionId.HERO)}
+        onClick={() => onNavClick(SectionId.HOME)}
       >
         BO.
       </div>
